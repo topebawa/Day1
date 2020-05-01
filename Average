@@ -1,0 +1,13 @@
+def average(numbers):
+
+    return numbers
+sum = 0
+numbers = input("Enter a set of numbers separated by a space: ")
+list_of_numbers = numbers.split()
+for i in list_of_numbers:
+    sum = sum + int(i)
+    average = sum / len(list_of_numbers)
+print("The average of all the entered numbers is", average)
+
+
+
